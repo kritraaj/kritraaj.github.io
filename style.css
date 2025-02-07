@@ -46,3 +46,20 @@ h2 + p::first-letter {
   float: left;
   transition: 1s;
 }
+
+h2 + p {
+  margin-top: 1rem;
+}
+
+article {
+  columns: 25ch auto;
+  gap: 1rem;
+  border-bottom: 1rem solid black;
+  padding-bottom: 2rem;
+}
+
+aside {
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-left: 1rem;
+}
